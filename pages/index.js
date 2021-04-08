@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="md:flex md:justify-center">
+      <main className="flex justify-center">
         {/**
           <div className="px-4 py-12 bg-pink-500">
             <p className="text-5xl font-bold text-center text-white uppercase">RIBEIRANDO</p>
