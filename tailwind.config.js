@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      height: {
+        'player': '30rem'
+      },
       colors: {
         "gang-green": "#039c00",
         "cart": "#8c009c",
