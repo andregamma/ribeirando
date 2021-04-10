@@ -22,7 +22,7 @@ const Watch: NextPage<Props> = ({ watchId, watchReference }) => {
     <div className={`flex flex-col items-center justify-center min-h-screen ${bgColor}`}>
       <ArtistLogo artistRef={watchReference} />
       <div className="w-full md:w-3/4 h-80 md:h-player">
-        <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${watchId}?modestbranding=1&showinfo=0`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="100%" height="100%" src={`https://www.youtube.com/embed/${watchId}?modestbranding=1&showinfo=0&autoplay=1`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
     </div>
   );
