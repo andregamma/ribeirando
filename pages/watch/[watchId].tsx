@@ -16,8 +16,10 @@ const Watch: NextPage<Props> = ({ watchId, watchReference }) => {
     )
   }
 
+  const bgColor = getArtistData(watchReference, "bgColor")
+
   return (
-    <div className={`flex flex-col items-center justify-center min-h-screen ${getArtistData(watchReference, "bgColor")}`}>
+    <div className={`flex flex-col items-center justify-center min-h-screen ${bgColor}`}>
       <ArtistLogo artistRef={watchReference} />
       <iframe width="860" height="500" src={`https://www.youtube.com/embed/${watchId}?modestbranding=1&showinfo=0`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
