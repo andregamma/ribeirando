@@ -12,15 +12,7 @@ export default function Home() {
         <title>Ribeirando - Edição Digital</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className="flex justify-center">
-        {/**
-          <div className="px-4 py-12 bg-pink-500">
-            <p className="text-5xl font-bold text-center text-white uppercase">RIBEIRANDO</p>
-          </div>
-        */}
-          <img src="https://i.imgur.com/ROcgxhf.jpg" alt=""/>
-      </main>
+      <img src="https://i.imgur.com/ROcgxhf.jpg" alt="Ribeirando" className="mx-auto" />
     </div>
   )
 }
