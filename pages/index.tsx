@@ -12,7 +12,9 @@ export default function Home() {
         <title>Ribeirando - Edição Digital</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <img src="https://i.imgur.com/ROcgxhf.jpg" alt="Ribeirando" className="mx-auto" />
+      <div className="md:flex md:justify-center">
+        <img src="https://i.imgur.com/ROcgxhf.jpg" alt="Ribeirando" className="mx-auto" />
+      </div>
     </div>
   )
 }
