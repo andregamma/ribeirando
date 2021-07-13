@@ -12,7 +12,7 @@ export default function Home() {
         <title>Ribeirando - Edição Digital</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <img src="https://cdn.discordapp.com/attachments/785757647688171541/849123873512488980/Revista_Ribeirando_N2.png" alt="Ribeirando" className="mx-auto" />
+      <img src="https://cdn.discordapp.com/attachments/752415841114390588/864371137717600286/Revista_Ribeirando_N3.png" alt="Ribeirando" className="mx-auto" />
     </div>
   )
 }
